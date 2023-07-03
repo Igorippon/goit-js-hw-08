@@ -2,9 +2,7 @@ const throttle = require('lodash.throttle');
 const form = document.querySelector('.feedback-form');
 const input = document.querySelector('#email');
 const STORAGE_KEY = "feedback-form-state"
-const data = getData();
-console.log(data.email);
-
+const data = {};
 
 form.addEventListener('input', throttle(handlerInput, 500));
 function handlerInput(evt) {
