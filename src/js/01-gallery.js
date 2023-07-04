@@ -4,10 +4,6 @@ import SimpleLightbox from "simplelightbox";
 import "simplelightbox/dist/simple-lightbox.min.css";
 // Change code below this line
 
-console.log(galleryItems);
-
-console.log(SimpleLightbox);
-
 const list = document.querySelector('.gallery');
 
 function createMarkupitems(arr) {
